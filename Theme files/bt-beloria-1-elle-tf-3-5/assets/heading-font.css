@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Futura;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/futura/futura_n4.df36ce3d9db534a4d7947f4aa825495ed740e410.woff2?&hmac=6a56d51fc32d698d069bcec7f4cb537efbe7b6e5940d1e9fc4d0a71d2b552fc4") format("woff2"),
+       url("https://fonts.shopifycdn.com/futura/futura_n4.6bce24beb4ba1ff4ddeb20f7cd6e2fa513a3d6ec.woff?&hmac=0103d4b4c242038a4673909d15ddc0fe2f54962088997a60bd7f07bfc9266a4f") format("woff");
+}
+
+@font-face {
+  font-family: Futura;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/futura/futura_n7.153f8fffad8e901382179997bbb87aa7a5ff33b3.woff2?&hmac=373710c79938e701f46de6a94e937f473b7c7af77c10942bd77bf01af2eb31f6") format("woff2"),
+       url("https://fonts.shopifycdn.com/futura/futura_n7.711e9243b3eccc2745ecf4731eba61651a122376.woff?&hmac=ad46e23d814517f1f97c7f23bfeba4784dec72d2cb35f62a82201f6678b00671") format("woff");
+}
+

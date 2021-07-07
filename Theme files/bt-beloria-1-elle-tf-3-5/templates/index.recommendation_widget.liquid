@@ -1,0 +1,13 @@
+{%- layout none -%}
+{%- liquid
+unless settings.enable_rtl and settings.rtl_language_codes contains request.locale.iso_code
+  assign enable_rtl = false
+else
+  assign enable_rtl = true
+endunless
+capture terms
+    render 'read-url-param' with param_name: 'q'
+  endcapture
+  assign terms = terms | strip | url_decode
+-%}
+{%- render 'product-single-fre-bought-content' with fre_handles: terms, enable_rtl: enable_rtl -%}
